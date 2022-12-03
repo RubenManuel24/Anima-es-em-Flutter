@@ -59,7 +59,7 @@ class _CriandoAnimacoesBasicasState extends State<CriandoAnimacoesBasicas> {
         },
         child: AnimatedContainer(
           duration: Duration(seconds: 3),
-          curve: Curves.linearToEaseOut,
+          curve: Curves.fastOutSlowIn,
           alignment: Alignment.center,
           width: _estado ? 60 : 170,
           height: 60,
