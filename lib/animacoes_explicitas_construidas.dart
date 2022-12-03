@@ -12,7 +12,7 @@ class _AnimacoesExplicitasConstruidasState extends State<AnimacoesExplicitasCons
 
   AnimationStatus? _animationStatus;
 
- late Animation<double> _animation;
+ late Animation<double>  _animation;
 
  @override
  void initState() {
